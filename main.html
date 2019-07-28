@@ -1,0 +1,77 @@
+	<html >
+	  <head>
+	   <meta charset="utf-8"> 
+	    <title>1111</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <!-- 包含 bootstrap 样式表 -->
+	<!--      <link href="css/common.css" rel="stylesheet"/>
+	 -->     <link rel="stylesheet" href="css/style.css">
+	  </head>
+
+	<body >
+
+	<div class="nav">
+		
+		<div class="conter">
+			<div class="fl">
+				<span>首页</span>
+			</div>
+			<div class="fr">
+				<span>sfhjhjh</span>
+				<span>sfhjhjh</span>
+				<span>sfhjhjh</span>
+				<span>sfhjhjh</span>
+				<span>sfhjhjh</span>
+
+			</div>
+		</div>
+
+	</div>	
+
+	</body>
+	</html>
+	<script type="text/javascript">
+			
+	// var arr=new Array();
+	var  arr=[0,1,2,3,4,5,6,7,8,9];
+	// console.log( arr[2])
+	arr=["hello",1,true,null,undefined];
+	var obj={name:"孙悟空"};
+	arr[arr.length]=obj;
+	arr=[{name:"孙悟空"},{name:"111"},{name:"222"}]
+	arr=[function(){alert(11111);	
+	},function(){ alert(2222);
+	}]
+	arr=["11","22","33","44","55"]
+	for (var i = 0; i <=arr.length; i++) {
+		console.log(arr[i])
+	}
+	function Person(name,age,gender) {
+		this.name=name;
+		this.age=age;
+
+	}
+	Person.prototype.toString = function() {
+	return "Person[name="+this.name+",age="+this.age+"]";
+	};
+	var per=new Person("孙悟空",18);
+	var arr=["11","22","33","44","55"];
+	var result=arr.slice(0,2)
+	var arr=[1,2,3,4,5,1,2,3,4,5,6];
+	for (var i = 0 ;i<=arr.length; i++) {
+		for (var j=i+1; j<= arr.length; i++) {
+			if (arr[i]==arr[j]) {
+					arr.splice(j,1)
+			}
+		}
+	}
+	console.log(arr)
+	// console.log(arr[2]);
+	// arr();
+	// console.log(arr[0]());
+	</script>
+
+
+
+
+
